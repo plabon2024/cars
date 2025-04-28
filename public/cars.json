@@ -1,0 +1,206 @@
+[
+    {
+      "id": 1,
+      "brand": "Aston Martin",
+      "model": "DBX 707",
+      "year": 2025,
+      "price": 249900,
+      "horsepower": 697,
+      "top_speed_mph": 193,
+      "acceleration_0_60_mph": 3.3,
+      "fuel_type": "Gasoline",
+      "image": "1.webp",
+      "key_features": [
+        "Revamped interior with new touchscreen infotainment",
+        "Redesigned center console",
+        "New color options: Helios Yellow, Podium Green"
+      ]
+    },
+    {
+      "id": 2,
+      "brand": "Porsche",
+      "model": "911 Carrera GTS",
+      "year": 2025,
+      "price": 164900,
+      "horsepower": 532,
+      "top_speed_mph": 193,
+      "acceleration_0_60_mph": 3.0,
+      "fuel_type": "Hybrid",
+      "image": "2.avif",
+      "key_features": [
+        "Hybrid flat-six engine with electric turbocharger",
+        "Enhanced performance dynamics",
+        "Available in coupe and cabriolet"
+      ]
+    },
+    {
+      "id": 3,
+      "brand": "Lamborghini",
+      "model": "Urus SE",
+      "year": 2025,
+      "price": 258000,
+      "horsepower": 789,
+      "top_speed_mph": 190,
+      "acceleration_0_60_mph": 3.4,
+      "fuel_type": "Plug-in Hybrid",
+      "image": "3.jpg",
+      "key_features": [
+        "Twin-turbo 4.0 V8 with hybrid system",
+        "Upgraded interior with sustainable materials",
+        "Advanced driver assistance systems"
+      ]
+    },
+    {
+      "id": 4,
+      "brand": "Land Rover",
+      "model": "Defender 130",
+      "year": 2025,
+      "price": 69700,
+      "horsepower": 518,
+      "top_speed_mph": 149,
+      "acceleration_0_60_mph": 4.9,
+      "fuel_type": "Gasoline",
+      "image": "4.webp",
+      "key_features": [
+        "Standard captain chairs for enhanced comfort",
+        "Off-road capability with advanced terrain response",
+        "Spacious interior for up to 8 passengers"
+      ]
+    },
+    {
+      "id": 5,
+      "brand": "Mercedes-Benz",
+      "model": "EQS Sedan",
+      "year": 2025,
+      "price": 104900,
+      "horsepower": 355,
+      "top_speed_mph": 130,
+      "acceleration_0_60_mph": 5.5,
+      "fuel_type": "Electric",
+      "image": "5.avif",
+      "key_features": [
+        "Up to 400-mile range",
+        "Hyperscreen dashboard with advanced tech",
+        "Luxurious interior with sustainable materials"
+      ]
+    },
+    {
+      "id": 6,
+      "brand": "Genesis",
+      "model": "Electrified GV70",
+      "year": 2025,
+      "price": 68300,
+      "horsepower": 429,
+      "top_speed_mph": 149,
+      "acceleration_0_60_mph": 4.5,
+      "fuel_type": "Electric",
+      "image": "6.webp",
+      "key_features": [
+        "Dual motors with 516 lb-ft torque",
+        "Class-leading interior materials",
+        "Advanced safety and driver assistance systems"
+      ]
+    },
+    {
+      "id": 7,
+      "brand": "Audi",
+      "model": "A6 e-tron",
+      "year": 2025,
+      "price": 70000,
+      "horsepower": 422,
+      "top_speed_mph": 130,
+      "acceleration_0_60_mph": 4.5,
+      "fuel_type": "Electric",
+      "image": "7.jpg",
+      "key_features": [
+        "800-volt architecture for rapid charging",
+        "Up to 350-mile range",
+        "Curved infotainment and gauge cluster"
+      ]
+    },
+    {
+      "id": 8,
+      "brand": "BMW",
+      "model": "5 Series",
+      "year": 2025,
+      "price": 57900,
+      "horsepower": 335,
+      "top_speed_mph": 155,
+      "acceleration_0_60_mph": 5.7,
+      "fuel_type": "Hybrid",
+      "image": "8.png",
+      "key_features": [
+        "Latest iDrive infotainment system",
+        "Spacious and luxurious cabin",
+        "Optional plug-in hybrid with 738 hp"
+      ]
+    },
+    {
+      "id": 9,
+      "brand": "Rolls-Royce",
+      "model": "Spectre",
+      "year": 2025,
+      "price": 413000,
+      "horsepower": 577,
+      "top_speed_mph": 155,
+      "acceleration_0_60_mph": 4.4,
+      "fuel_type": "Electric",
+      "image": "9.avif",
+      "key_features": [
+        "First-ever electric Rolls-Royce",
+        "Bespoke customization options",
+        "Ultra-quiet cabin with starlight headliner"
+      ]
+    },
+    {
+      "id": 10,
+      "brand": "Bentley",
+      "model": "Flying Spur",
+      "year": 2025,
+      "price": 214800,
+      "horsepower": 626,
+      "top_speed_mph": 207,
+      "acceleration_0_60_mph": 3.7,
+      "fuel_type": "Hybrid",
+      "image": "10.jpg",
+      "key_features": [
+        "Fastest production sedan",
+        "Handcrafted interior with premium leather",
+        "Advanced noise cancellation for serene ride"
+      ]
+    },
+    {
+      "id": 11,
+      "brand": "Lucid",
+      "model": "Air Sapphire",
+      "year": 2025,
+      "price": 249000,
+      "horsepower": 1234,
+      "top_speed_mph": 205,
+      "acceleration_0_60_mph": 1.9,
+      "fuel_type": "Electric",
+      "image": "11.avif",
+      "key_features": [
+        "Up to 516-mile range",
+        "Tri-motor setup for extreme performance",
+        "Luxurious cabin with advanced tech"
+      ]
+    },
+    {
+      "id": 12,
+      "brand": "Ferrari",
+      "model": "Purosangue",
+      "year": 2025,
+      "price": 398350,
+      "horsepower": 715,
+      "top_speed_mph": 193,
+      "acceleration_0_60_mph": 3.3,
+      "fuel_type": "Gasoline",
+      "image": "12.webp",
+      "key_features": [
+        "First Ferrari SUV with V12 engine",
+        "Driver-focused cockpit",
+        "All-wheel drive for enhanced handling"
+      ]
+    }
+  ]
