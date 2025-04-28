@@ -1,13 +1,19 @@
-// import { createUserWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword } from "firebase/auth";
 import React from "react";
-// import { auth } from "../firebase/firebase.init";
+import { auth } from "../firebase/firebase.init";
 
-const Login = () => {
+const Signup = () => {
   function handlesubmit(e) {
     e.preventDefault();
-    // const email = e.target.email.value;
-    // const password = e.target.password.value;
-    // createUserWithEmailAndPassword(auth,email,password)
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+    createUserWithEmailAndPassword(auth, email, password)
+    .then((res) => {
+      console.log(res)
+    })
+    .catch((error) => {
+    console.log(error)
+    });
   }
   return (
     <div>
@@ -59,7 +65,7 @@ const Login = () => {
             </g>
           </svg>
           <input
-          name="password"
+            name="password"
             type="password"
             required
             placeholder="Password"
@@ -76,11 +82,11 @@ const Login = () => {
           At least one uppercase letter
         </p>
         <button type="submit" className="btn btn-primary mt-4">
-         log in
+          Sign up
         </button>
       </form>
     </div>
   );
 };
 
-export default Login;
+export default Signup;

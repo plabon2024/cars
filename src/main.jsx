@@ -7,8 +7,11 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 
 import Home from "./components/Home";
 import mainlayout from "./layout/mainlayout";
-import login from "./pages/login";
-import Register from "./pages/login";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+
+
+
 
 const routes = createBrowserRouter([
   {
@@ -17,12 +20,12 @@ const routes = createBrowserRouter([
     children: [
       { index: true, Component: Home },
       {
-        path: "login",
-        Component: login,
+        path: "/login",
+        Component: Login,
       },
       {
-        path: "register",
-        Component: Register,
+        path: "/signup",
+        Component: Signup,
       },
     ],
   },
