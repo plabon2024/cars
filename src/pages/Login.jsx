@@ -1,13 +1,20 @@
-// import { createUserWithEmailAndPassword } from "firebase/auth";
-import React from "react";
-// import { auth } from "../firebase/firebase.init";
+import { sendPasswordResetEmail, signInWithEmailAndPassword } from "firebase/auth";
+import React, { useRef } from "react";
+import { auth } from "../firebase/firebase.init";
 
 const Login = () => {
+  const emailref=useRef()
   function handlesubmit(e) {
     e.preventDefault();
-    // const email = e.target.email.value;
-    // const password = e.target.password.value;
-    // createUserWithEmailAndPassword(auth,email,password)
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+   signInWithEmailAndPassword(auth,email,password)
+   .then(res=>console.log(res))
+   .catch(err=>console.log(err))
+  }
+  function handleforgetpass(){
+    const email=emailref.current.value
+    sendPasswordResetEmail(auth,email)
   }
   return (
     <div>
@@ -33,6 +40,7 @@ const Login = () => {
             </g>
           </svg>
           <input
+           ref={emailref}
             name="email"
             type="email"
             placeholder="mail@site.com"
@@ -59,6 +67,7 @@ const Login = () => {
             </g>
           </svg>
           <input
+         
           name="password"
             type="password"
             required
@@ -77,6 +86,9 @@ const Login = () => {
         </p>
         <button type="submit" className="btn btn-primary mt-4">
          log in
+        </button>
+        <button onClick={handleforgetpass} type="submit" className="btn btn-primary mt-4">
+         forget password
         </button>
       </form>
     </div>
